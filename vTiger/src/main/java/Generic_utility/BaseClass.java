@@ -19,6 +19,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class BaseClass {
 	
 	//comment from git humb
+	//viewed comment
 	public WebDriver driver;
 	@BeforeSuite(groups = {"smoke","regression"})
 	public void BS()
